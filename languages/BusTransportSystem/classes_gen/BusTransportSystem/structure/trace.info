@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,118,0" name="BusTransportSystem.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,50,0" name="BusTransportSystem.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="18,0,220,0" name="BusTransportSystem.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/1397957499054609643">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1397957499054609643" at="15,0,16,0" concept="2" trace="props_Bus" />
+      <node id="1397957499054609643" at="52,32,53,76" concept="5" />
+      <node id="1397957499054609643" at="53,76,54,35" concept="1" />
+      <node id="1397957499054609643" at="54,35,55,35" concept="1" />
+      <node id="1397957499054609643" at="56,9,57,25" concept="6" />
+      <node id="1397957499054609643" at="51,37,56,9" concept="3" />
+      <scope id="1397957499054609643" at="52,32,55,35">
+        <var name="cpb" id="1397957499054609643" />
+      </scope>
+      <scope id="1397957499054609643" at="51,37,57,25" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1397957499054609643" at="15,0,16,0" concept="7" trace="Bus" />
+      <node id="1397957499054609643" at="29,46,30,42" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1397957499054609643" at="22,0,23,0" concept="2" trace="myConceptBus" />
+      <node id="1397957499054609643" at="62,37,63,28" concept="6" />
+      <node id="1397957499054609643" at="129,61,130,156" concept="5" />
+      <node id="1397957499054609643" at="130,156,131,33" concept="1" />
+      <node id="1397957499054609643" at="131,33,132,71" concept="1" />
+      <node id="1397957499054609643" at="132,71,133,105" concept="1" />
+      <node id="1397957499054609643" at="133,105,134,17" concept="1" />
+      <node id="1397957499054643284" at="134,17,135,115" concept="1" />
+      <node id="3893540833473063536" at="135,115,136,175" concept="1" />
+      <node id="1397957499054643309" at="136,175,137,197" concept="1" />
+      <node id="1397957499054609643" at="137,197,138,22" concept="6" />
+      <node id="1397957499054609643" at="129,0,140,0" concept="8" trace="createDescriptorForBus#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1397957499054609643" at="62,37,63,28" />
+      <scope id="1397957499054609643" at="129,61,138,22">
+        <var name="b" id="1397957499054609643" />
+      </scope>
+      <scope id="1397957499054609643" at="129,0,140,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/1397957499054643272">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1397957499054643272" at="22,0,23,0" concept="2" trace="props_Seat" />
+      <node id="1397957499054643272" at="101,33,102,76" concept="5" />
+      <node id="1397957499054643272" at="102,76,103,35" concept="1" />
+      <node id="1397957499054643272" at="103,35,104,36" concept="1" />
+      <node id="1397957499054643272" at="105,9,106,26" concept="6" />
+      <node id="1397957499054643272" at="100,38,105,9" concept="3" />
+      <scope id="1397957499054643272" at="101,33,104,36">
+        <var name="cpb" id="1397957499054643272" />
+      </scope>
+      <scope id="1397957499054643272" at="100,38,106,26" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1397957499054643272" at="22,0,23,0" concept="7" trace="Seat" />
+      <node id="1397957499054643272" at="36,46,37,43" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1397957499054643272" at="29,0,30,0" concept="2" trace="myConceptSeat" />
+      <node id="1397957499054643272" at="76,38,77,29" concept="6" />
+      <node id="1397957499054643272" at="198,62,199,157" concept="5" />
+      <node id="1397957499054643272" at="199,157,200,34" concept="1" />
+      <node id="1397957499054643272" at="200,34,201,71" concept="1" />
+      <node id="1397957499054643272" at="201,71,202,105" concept="1" />
+      <node id="1397957499054643272" at="202,105,203,17" concept="1" />
+      <node id="431360409080017847" at="203,17,204,199" concept="1" />
+      <node id="1397957499054643272" at="204,199,205,22" concept="6" />
+      <node id="1397957499054643272" at="198,0,207,0" concept="8" trace="createDescriptorForSeat#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1397957499054643272" at="76,38,77,29" />
+      <scope id="1397957499054643272" at="198,62,205,22">
+        <var name="b" id="1397957499054643272" />
+      </scope>
+      <scope id="1397957499054643272" at="198,0,207,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/1397957499054643277">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1397957499054643277" at="17,0,18,0" concept="2" trace="props_City" />
+      <node id="1397957499054643277" at="66,33,67,76" concept="5" />
+      <node id="1397957499054643277" at="67,76,68,35" concept="1" />
+      <node id="1397957499054643277" at="68,35,69,36" concept="1" />
+      <node id="1397957499054643277" at="70,9,71,26" concept="6" />
+      <node id="1397957499054643277" at="65,38,70,9" concept="3" />
+      <scope id="1397957499054643277" at="66,33,69,36">
+        <var name="cpb" id="1397957499054643277" />
+      </scope>
+      <scope id="1397957499054643277" at="65,38,71,26" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1397957499054643277" at="17,0,18,0" concept="7" trace="City" />
+      <node id="1397957499054643277" at="31,44,32,43" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1397957499054643277" at="24,0,25,0" concept="2" trace="myConceptCity" />
+      <node id="1397957499054643277" at="66,38,67,29" concept="6" />
+      <node id="1397957499054643277" at="151,62,152,157" concept="5" />
+      <node id="1397957499054643277" at="152,157,153,34" concept="1" />
+      <node id="1397957499054643277" at="153,34,154,71" concept="1" />
+      <node id="1397957499054643277" at="154,71,155,105" concept="1" />
+      <node id="1397957499054643277" at="155,105,156,17" concept="1" />
+      <node id="1397957499054643280" at="156,17,157,179" concept="1" />
+      <node id="1397957499054643277" at="157,179,158,22" concept="6" />
+      <node id="1397957499054643277" at="151,0,160,0" concept="8" trace="createDescriptorForCity#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1397957499054643277" at="66,38,67,29" />
+      <scope id="1397957499054643277" at="151,62,158,22">
+        <var name="b" id="1397957499054643277" />
+      </scope>
+      <scope id="1397957499054643277" at="151,0,160,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/1397957499054643287">
+    <file name="EnumerationDescriptor_Point.java">
+      <node id="1397957499054643287" at="14,40,15,174" concept="9" />
+      <node id="1397957499054643288" at="18,0,19,0" concept="2" trace="myMember_ARRIVAL_POINT_0" />
+      <node id="1397957499054643289" at="19,0,20,0" concept="2" trace="myMember_DEPARTURE_POINT_0" />
+      <node id="1397957499054643287" at="21,0,22,0" concept="2" trace="myIndex" />
+      <node id="1397957499054643287" at="22,0,23,0" concept="2" trace="myMembers" />
+      <node id="1397957499054643287" at="26,62,27,16" concept="6" />
+      <node id="1397957499054643287" at="32,68,33,21" concept="6" />
+      <node id="1397957499054643287" at="39,29,40,18" concept="6" />
+      <node id="1397957499054643288" at="43,27,44,40" concept="6" />
+      <node id="1397957499054643289" at="45,29,46,42" concept="6" />
+      <node id="1397957499054643287" at="47,5,48,16" concept="6" />
+      <node id="1397957499054643287" at="53,73,54,39" concept="5" />
+      <node id="1397957499054643287" at="55,22,56,18" concept="6" />
+      <node id="1397957499054643287" at="57,5,58,32" concept="6" />
+      <node id="1397957499054643287" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_Point#()V" />
+      <node id="1397957499054643287" at="38,88,41,5" concept="3" />
+      <node id="1397957499054643287" at="54,39,57,5" concept="3" />
+      <node id="1397957499054643287" at="24,0,29,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="1397957499054643287" at="30,0,35,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="1397957499054643287" at="41,5,47,5" concept="10" />
+      <node id="1397957499054643287" at="51,0,60,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="1397957499054643287" at="36,0,50,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="1397957499054643287" at="14,40,15,174" />
+      <scope id="1397957499054643287" at="26,62,27,16" />
+      <scope id="1397957499054643287" at="32,68,33,21" />
+      <scope id="1397957499054643287" at="39,29,40,18" />
+      <scope id="1397957499054643288" at="43,27,44,40" />
+      <scope id="1397957499054643289" at="45,29,46,42" />
+      <scope id="1397957499054643287" at="55,22,56,18" />
+      <scope id="1397957499054643287" at="14,0,17,0" />
+      <scope id="1397957499054643287" at="24,0,29,0" />
+      <scope id="1397957499054643287" at="30,0,35,0" />
+      <scope id="1397957499054643287" at="53,73,58,32">
+        <var name="index" id="1397957499054643287" />
+      </scope>
+      <scope id="1397957499054643287" at="51,0,60,0">
+        <var name="idValue" id="1397957499054643287" />
+      </scope>
+      <scope id="1397957499054643287" at="38,88,48,16" />
+      <scope id="1397957499054643287" at="36,0,50,0">
+        <var name="memberName" id="1397957499054643287" />
+      </scope>
+      <unit id="1397957499054643287" at="12,0,61,0" name="BusTransportSystem.structure.EnumerationDescriptor_Point" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1397957499054643287" at="34,0,35,0" concept="2" trace="myEnumerationPoint" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/1397957499054643314">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="1397957499054643314" at="23,0,24,0" concept="2" trace="props_Ticket" />
+      <node id="1397957499054643314" at="108,35,109,76" concept="5" />
+      <node id="1397957499054643314" at="109,76,110,35" concept="1" />
+      <node id="1397957499054643314" at="110,35,111,38" concept="1" />
+      <node id="1397957499054643314" at="112,9,113,28" concept="6" />
+      <node id="1397957499054643314" at="107,40,112,9" concept="3" />
+      <scope id="1397957499054643314" at="108,35,111,38">
+        <var name="cpb" id="1397957499054643314" />
+      </scope>
+      <scope id="1397957499054643314" at="107,40,113,28" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="1397957499054643314" at="23,0,24,0" concept="7" trace="Ticket" />
+      <node id="1397957499054643314" at="37,43,38,45" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1397957499054643314" at="30,0,31,0" concept="2" trace="myConceptTicket" />
+      <node id="1397957499054643314" at="78,40,79,31" concept="6" />
+      <node id="1397957499054643314" at="207,64,208,159" concept="5" />
+      <node id="1397957499054643314" at="208,159,209,34" concept="1" />
+      <node id="1397957499054643314" at="209,34,210,71" concept="1" />
+      <node id="1397957499054643314" at="210,71,211,105" concept="1" />
+      <node id="1397957499054643314" at="211,105,212,17" concept="1" />
+      <node id="1397957499054643317" at="212,17,213,176" concept="1" />
+      <node id="1397957499054643321" at="213,176,214,118" concept="1" />
+      <node id="1397957499054643324" at="214,118,215,120" concept="1" />
+      <node id="1397957499054643328" at="215,120,216,183" concept="1" />
+      <node id="1397957499054643314" at="216,183,217,22" concept="6" />
+      <node id="1397957499054643314" at="207,0,219,0" concept="8" trace="createDescriptorForTicket#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="1397957499054643314" at="78,40,79,31" />
+      <scope id="1397957499054643314" at="207,64,217,22">
+        <var name="b" id="1397957499054643314" />
+      </scope>
+      <scope id="1397957499054643314" at="207,0,219,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/1397957499054643319">
+    <file name="EnumerationDescriptor_DataType.java">
+      <node id="1397957499054643319" at="14,43,15,177" concept="9" />
+      <node id="1397957499054643320" at="18,0,19,0" concept="2" trace="myMember_BIG_DECIMAL_0" />
+      <node id="1397957499054643333" at="19,0,20,0" concept="2" trace="myMember_DATE_0" />
+      <node id="1397957499054643336" at="20,0,21,0" concept="2" trace="myMember_DATETIME_0" />
+      <node id="1397957499054643319" at="22,0,23,0" concept="2" trace="myIndex" />
+      <node id="1397957499054643319" at="23,0,24,0" concept="2" trace="myMembers" />
+      <node id="1397957499054643319" at="27,62,28,16" concept="6" />
+      <node id="1397957499054643319" at="33,68,34,21" concept="6" />
+      <node id="1397957499054643319" at="40,29,41,18" concept="6" />
+      <node id="1397957499054643320" at="44,25,45,38" concept="6" />
+      <node id="1397957499054643333" at="46,18,47,31" concept="6" />
+      <node id="1397957499054643336" at="48,22,49,35" concept="6" />
+      <node id="1397957499054643319" at="50,5,51,16" concept="6" />
+      <node id="1397957499054643319" at="56,73,57,39" concept="5" />
+      <node id="1397957499054643319" at="58,22,59,18" concept="6" />
+      <node id="1397957499054643319" at="60,5,61,32" concept="6" />
+      <node id="1397957499054643319" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_DataType#()V" />
+      <node id="1397957499054643319" at="39,88,42,5" concept="3" />
+      <node id="1397957499054643319" at="57,39,60,5" concept="3" />
+      <node id="1397957499054643319" at="25,0,30,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="1397957499054643319" at="31,0,36,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="1397957499054643319" at="42,5,50,5" concept="10" />
+      <node id="1397957499054643319" at="54,0,63,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="1397957499054643319" at="37,0,53,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="1397957499054643319" at="14,43,15,177" />
+      <scope id="1397957499054643319" at="27,62,28,16" />
+      <scope id="1397957499054643319" at="33,68,34,21" />
+      <scope id="1397957499054643319" at="40,29,41,18" />
+      <scope id="1397957499054643320" at="44,25,45,38" />
+      <scope id="1397957499054643333" at="46,18,47,31" />
+      <scope id="1397957499054643336" at="48,22,49,35" />
+      <scope id="1397957499054643319" at="58,22,59,18" />
+      <scope id="1397957499054643319" at="14,0,17,0" />
+      <scope id="1397957499054643319" at="25,0,30,0" />
+      <scope id="1397957499054643319" at="31,0,36,0" />
+      <scope id="1397957499054643319" at="56,73,61,32">
+        <var name="index" id="1397957499054643319" />
+      </scope>
+      <scope id="1397957499054643319" at="54,0,63,0">
+        <var name="idValue" id="1397957499054643319" />
+      </scope>
+      <scope id="1397957499054643319" at="39,88,51,16" />
+      <scope id="1397957499054643319" at="37,0,53,0">
+        <var name="memberName" id="1397957499054643319" />
+      </scope>
+      <unit id="1397957499054643319" at="12,0,64,0" name="BusTransportSystem.structure.EnumerationDescriptor_DataType" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="1397957499054643319" at="32,0,33,0" concept="2" trace="myEnumerationDataType" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/3893540833473063545">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3893540833473063545" at="14,0,15,0" concept="2" trace="props_Booking" />
+      <node id="3893540833473063545" at="45,36,46,76" concept="5" />
+      <node id="3893540833473063545" at="46,76,47,35" concept="1" />
+      <node id="3893540833473063545" at="47,35,48,39" concept="1" />
+      <node id="3893540833473063545" at="49,9,50,29" concept="6" />
+      <node id="3893540833473063545" at="44,41,49,9" concept="3" />
+      <scope id="3893540833473063545" at="45,36,48,39">
+        <var name="cpb" id="3893540833473063545" />
+      </scope>
+      <scope id="3893540833473063545" at="44,41,50,29" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3893540833473063545" at="14,0,15,0" concept="7" trace="Booking" />
+      <node id="3893540833473063545" at="28,45,29,46" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3893540833473063545" at="21,0,22,0" concept="2" trace="myConceptBooking" />
+      <node id="3893540833473063545" at="60,41,61,32" concept="6" />
+      <node id="3893540833473063545" at="114,65,115,160" concept="5" />
+      <node id="3893540833473063545" at="115,160,116,34" concept="1" />
+      <node id="3893540833473063545" at="116,34,117,71" concept="1" />
+      <node id="3893540833473063545" at="117,71,118,105" concept="1" />
+      <node id="3893540833473063545" at="118,105,119,17" concept="1" />
+      <node id="3893540833473063548" at="119,17,120,183" concept="1" />
+      <node id="3893540833473063550" at="120,183,121,183" concept="1" />
+      <node id="3893540833473063562" at="121,183,122,177" concept="1" />
+      <node id="3018704568829761229" at="122,177,123,171" concept="1" />
+      <node id="3893540833473063566" at="123,171,124,200" concept="1" />
+      <node id="3893540833473063568" at="124,200,125,198" concept="1" />
+      <node id="3893540833473063601" at="125,198,126,203" concept="1" />
+      <node id="3893540833473063545" at="126,203,127,22" concept="6" />
+      <node id="3893540833473063545" at="114,0,129,0" concept="8" trace="createDescriptorForBooking#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3893540833473063545" at="60,41,61,32" />
+      <scope id="3893540833473063545" at="114,65,127,22">
+        <var name="b" id="3893540833473063545" />
+      </scope>
+      <scope id="3893540833473063545" at="114,0,129,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/3893540833473063553">
+    <file name="EnumerationDescriptor_BookingStatus.java">
+      <node id="3893540833473063553" at="14,48,15,182" concept="9" />
+      <node id="3893540833473063554" at="18,0,19,0" concept="2" trace="myMember_PENDING_0" />
+      <node id="3893540833473063555" at="19,0,20,0" concept="2" trace="myMember_APPROVED_0" />
+      <node id="3893540833473063558" at="20,0,21,0" concept="2" trace="myMember_CANCELLED_0" />
+      <node id="3893540833473063553" at="22,0,23,0" concept="2" trace="myIndex" />
+      <node id="3893540833473063553" at="23,0,24,0" concept="2" trace="myMembers" />
+      <node id="3893540833473063553" at="27,62,28,16" concept="6" />
+      <node id="3893540833473063553" at="33,68,34,21" concept="6" />
+      <node id="3893540833473063553" at="40,29,41,18" concept="6" />
+      <node id="3893540833473063554" at="44,21,45,34" concept="6" />
+      <node id="3893540833473063555" at="46,22,47,35" concept="6" />
+      <node id="3893540833473063558" at="48,23,49,36" concept="6" />
+      <node id="3893540833473063553" at="50,5,51,16" concept="6" />
+      <node id="3893540833473063553" at="56,73,57,39" concept="5" />
+      <node id="3893540833473063553" at="58,22,59,18" concept="6" />
+      <node id="3893540833473063553" at="60,5,61,32" concept="6" />
+      <node id="3893540833473063553" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_BookingStatus#()V" />
+      <node id="3893540833473063553" at="39,88,42,5" concept="3" />
+      <node id="3893540833473063553" at="57,39,60,5" concept="3" />
+      <node id="3893540833473063553" at="25,0,30,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="3893540833473063553" at="31,0,36,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="3893540833473063553" at="42,5,50,5" concept="10" />
+      <node id="3893540833473063553" at="54,0,63,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="3893540833473063553" at="37,0,53,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="3893540833473063553" at="14,48,15,182" />
+      <scope id="3893540833473063553" at="27,62,28,16" />
+      <scope id="3893540833473063553" at="33,68,34,21" />
+      <scope id="3893540833473063553" at="40,29,41,18" />
+      <scope id="3893540833473063554" at="44,21,45,34" />
+      <scope id="3893540833473063555" at="46,22,47,35" />
+      <scope id="3893540833473063558" at="48,23,49,36" />
+      <scope id="3893540833473063553" at="58,22,59,18" />
+      <scope id="3893540833473063553" at="14,0,17,0" />
+      <scope id="3893540833473063553" at="25,0,30,0" />
+      <scope id="3893540833473063553" at="31,0,36,0" />
+      <scope id="3893540833473063553" at="56,73,61,32">
+        <var name="index" id="3893540833473063553" />
+      </scope>
+      <scope id="3893540833473063553" at="54,0,63,0">
+        <var name="idValue" id="3893540833473063553" />
+      </scope>
+      <scope id="3893540833473063553" at="39,88,51,16" />
+      <scope id="3893540833473063553" at="37,0,53,0">
+        <var name="memberName" id="3893540833473063553" />
+      </scope>
+      <unit id="3893540833473063553" at="12,0,64,0" name="BusTransportSystem.structure.EnumerationDescriptor_BookingStatus" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3893540833473063553" at="31,0,32,0" concept="2" trace="myEnumerationBookingStatus" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/3893540833473063571">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3893540833473063571" at="20,0,21,0" concept="2" trace="props_Passenger" />
+      <node id="3893540833473063571" at="87,38,88,76" concept="5" />
+      <node id="3893540833473063571" at="88,76,89,35" concept="1" />
+      <node id="3893540833473063571" at="89,35,90,41" concept="1" />
+      <node id="3893540833473063571" at="91,9,92,31" concept="6" />
+      <node id="3893540833473063571" at="86,43,91,9" concept="3" />
+      <scope id="3893540833473063571" at="87,38,90,41">
+        <var name="cpb" id="3893540833473063571" />
+      </scope>
+      <scope id="3893540833473063571" at="86,43,92,31" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3893540833473063571" at="20,0,21,0" concept="7" trace="Passenger" />
+      <node id="3893540833473063571" at="34,52,35,48" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3893540833473063571" at="27,0,28,0" concept="2" trace="myConceptPassenger" />
+      <node id="3893540833473063571" at="72,43,73,34" concept="6" />
+      <node id="3893540833473063571" at="178,67,179,162" concept="5" />
+      <node id="3893540833473063571" at="179,162,180,34" concept="1" />
+      <node id="3893540833473063571" at="180,34,181,71" concept="1" />
+      <node id="3893540833473063571" at="181,71,182,105" concept="1" />
+      <node id="3893540833473063571" at="182,105,183,17" concept="1" />
+      <node id="3893540833473063579" at="183,17,184,111" concept="1" />
+      <node id="3893540833473063583" at="184,111,185,111" concept="1" />
+      <node id="431360409080018318" at="185,111,186,196" concept="1" />
+      <node id="431360409080018320" at="186,196,187,199" concept="1" />
+      <node id="3893540833473063571" at="187,199,188,22" concept="6" />
+      <node id="3893540833473063571" at="178,0,190,0" concept="8" trace="createDescriptorForPassenger#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3893540833473063571" at="72,43,73,34" />
+      <scope id="3893540833473063571" at="178,67,188,22">
+        <var name="b" id="3893540833473063571" />
+      </scope>
+      <scope id="3893540833473063571" at="178,0,190,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/3893540833473063588">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3893540833473063588" at="16,0,17,0" concept="2" trace="props_Child" />
+      <node id="3893540833473063588" at="59,34,60,76" concept="5" />
+      <node id="3893540833473063588" at="60,76,61,35" concept="1" />
+      <node id="3893540833473063588" at="61,35,62,37" concept="1" />
+      <node id="3893540833473063588" at="63,9,64,27" concept="6" />
+      <node id="3893540833473063588" at="58,39,63,9" concept="3" />
+      <scope id="3893540833473063588" at="59,34,62,37">
+        <var name="cpb" id="3893540833473063588" />
+      </scope>
+      <scope id="3893540833473063588" at="58,39,64,27" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3893540833473063588" at="16,0,17,0" concept="7" trace="Child" />
+      <node id="3893540833473063588" at="30,42,31,44" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3893540833473063588" at="23,0,24,0" concept="2" trace="myConceptChild" />
+      <node id="3893540833473063588" at="64,39,65,30" concept="6" />
+      <node id="3893540833473063588" at="140,63,141,158" concept="5" />
+      <node id="3893540833473063588" at="141,158,142,34" concept="1" />
+      <node id="3893540833473063588" at="142,34,143,118" concept="1" />
+      <node id="3893540833473063588" at="143,118,144,105" concept="1" />
+      <node id="3893540833473063588" at="144,105,145,17" concept="1" />
+      <node id="3893540833473063591" at="145,17,146,117" concept="1" />
+      <node id="3893540833473063593" at="146,117,147,120" concept="1" />
+      <node id="3893540833473063596" at="147,120,148,120" concept="1" />
+      <node id="3893540833473063588" at="148,120,149,22" concept="6" />
+      <node id="3893540833473063588" at="140,0,151,0" concept="8" trace="createDescriptorForChild#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3893540833473063588" at="64,39,65,30" />
+      <scope id="3893540833473063588" at="140,63,149,22">
+        <var name="b" id="3893540833473063588" />
+      </scope>
+      <scope id="3893540833473063588" at="140,0,151,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/3893540833473063600">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3893540833473063600" at="12,0,13,0" concept="2" trace="props_Adult" />
+      <node id="3893540833473063600" at="31,34,32,76" concept="5" />
+      <node id="3893540833473063600" at="32,76,33,35" concept="1" />
+      <node id="3893540833473063600" at="33,35,34,37" concept="1" />
+      <node id="3893540833473063600" at="35,9,36,27" concept="6" />
+      <node id="3893540833473063600" at="30,39,35,9" concept="3" />
+      <scope id="3893540833473063600" at="31,34,34,37">
+        <var name="cpb" id="3893540833473063600" />
+      </scope>
+      <scope id="3893540833473063600" at="30,39,36,27" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3893540833473063600" at="12,0,13,0" concept="7" trace="Adult" />
+      <node id="3893540833473063600" at="26,116,27,44" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3893540833473063600" at="19,0,20,0" concept="2" trace="myConceptAdult" />
+      <node id="3893540833473063600" at="56,39,57,30" concept="6" />
+      <node id="3893540833473063600" at="94,63,95,158" concept="5" />
+      <node id="3893540833473063600" at="95,158,96,34" concept="1" />
+      <node id="3893540833473063600" at="96,34,97,118" concept="1" />
+      <node id="3893540833473063600" at="97,118,98,105" concept="1" />
+      <node id="3893540833473063600" at="98,105,99,17" concept="1" />
+      <node id="3893540833473063600" at="99,17,100,22" concept="6" />
+      <node id="3893540833473063600" at="94,0,102,0" concept="8" trace="createDescriptorForAdult#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3893540833473063600" at="56,39,57,30" />
+      <scope id="3893540833473063600" at="94,63,100,22">
+        <var name="b" id="3893540833473063600" />
+      </scope>
+      <scope id="3893540833473063600" at="94,0,102,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/3893540833473063605">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3893540833473063605" at="21,0,22,0" concept="2" trace="props_Payment" />
+      <node id="3893540833473063605" at="94,36,95,76" concept="5" />
+      <node id="3893540833473063605" at="95,76,96,35" concept="1" />
+      <node id="3893540833473063605" at="96,35,97,39" concept="1" />
+      <node id="3893540833473063605" at="98,9,99,29" concept="6" />
+      <node id="3893540833473063605" at="93,41,98,9" concept="3" />
+      <scope id="3893540833473063605" at="94,36,97,39">
+        <var name="cpb" id="3893540833473063605" />
+      </scope>
+      <scope id="3893540833473063605" at="93,41,99,29" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3893540833473063605" at="21,0,22,0" concept="7" trace="Payment" />
+      <node id="3893540833473063605" at="35,48,36,46" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3893540833473063605" at="28,0,29,0" concept="2" trace="myConceptPayment" />
+      <node id="3893540833473063605" at="74,41,75,32" concept="6" />
+      <node id="3893540833473063605" at="190,65,191,160" concept="5" />
+      <node id="3893540833473063605" at="191,160,192,34" concept="1" />
+      <node id="3893540833473063605" at="192,34,193,71" concept="1" />
+      <node id="3893540833473063605" at="193,71,194,105" concept="1" />
+      <node id="3893540833473063605" at="194,105,195,17" concept="1" />
+      <node id="3893540833473063605" at="195,17,196,22" concept="6" />
+      <node id="3893540833473063605" at="190,0,198,0" concept="8" trace="createDescriptorForPayment#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3893540833473063605" at="74,41,75,32" />
+      <scope id="3893540833473063605" at="190,65,196,22">
+        <var name="b" id="3893540833473063605" />
+      </scope>
+      <scope id="3893540833473063605" at="190,0,198,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/3893540833473063608">
+    <file name="EnumerationDescriptor_PaymentMethod.java">
+      <node id="3893540833473063608" at="14,48,15,182" concept="9" />
+      <node id="3893540833473063609" at="18,0,19,0" concept="2" trace="myMember_CREDIT_CARD_0" />
+      <node id="3893540833473063620" at="19,0,20,0" concept="2" trace="myMember_DEBIT_CARD_0" />
+      <node id="3893540833473063623" at="20,0,21,0" concept="2" trace="myMember_BANK_TRANSFER_0" />
+      <node id="3893540833473063608" at="22,0,23,0" concept="2" trace="myIndex" />
+      <node id="3893540833473063608" at="23,0,24,0" concept="2" trace="myMembers" />
+      <node id="3893540833473063608" at="27,62,28,16" concept="6" />
+      <node id="3893540833473063608" at="33,68,34,21" concept="6" />
+      <node id="3893540833473063608" at="40,29,41,18" concept="6" />
+      <node id="3893540833473063609" at="44,25,45,38" concept="6" />
+      <node id="3893540833473063620" at="46,24,47,37" concept="6" />
+      <node id="3893540833473063623" at="48,27,49,40" concept="6" />
+      <node id="3893540833473063608" at="50,5,51,16" concept="6" />
+      <node id="3893540833473063608" at="56,73,57,39" concept="5" />
+      <node id="3893540833473063608" at="58,22,59,18" concept="6" />
+      <node id="3893540833473063608" at="60,5,61,32" concept="6" />
+      <node id="3893540833473063608" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_PaymentMethod#()V" />
+      <node id="3893540833473063608" at="39,88,42,5" concept="3" />
+      <node id="3893540833473063608" at="57,39,60,5" concept="3" />
+      <node id="3893540833473063608" at="25,0,30,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="3893540833473063608" at="31,0,36,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="3893540833473063608" at="42,5,50,5" concept="10" />
+      <node id="3893540833473063608" at="54,0,63,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="3893540833473063608" at="37,0,53,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="3893540833473063608" at="14,48,15,182" />
+      <scope id="3893540833473063608" at="27,62,28,16" />
+      <scope id="3893540833473063608" at="33,68,34,21" />
+      <scope id="3893540833473063608" at="40,29,41,18" />
+      <scope id="3893540833473063609" at="44,25,45,38" />
+      <scope id="3893540833473063620" at="46,24,47,37" />
+      <scope id="3893540833473063623" at="48,27,49,40" />
+      <scope id="3893540833473063608" at="58,22,59,18" />
+      <scope id="3893540833473063608" at="14,0,17,0" />
+      <scope id="3893540833473063608" at="25,0,30,0" />
+      <scope id="3893540833473063608" at="31,0,36,0" />
+      <scope id="3893540833473063608" at="56,73,61,32">
+        <var name="index" id="3893540833473063608" />
+      </scope>
+      <scope id="3893540833473063608" at="54,0,63,0">
+        <var name="idValue" id="3893540833473063608" />
+      </scope>
+      <scope id="3893540833473063608" at="39,88,51,16" />
+      <scope id="3893540833473063608" at="37,0,53,0">
+        <var name="memberName" id="3893540833473063608" />
+      </scope>
+      <unit id="3893540833473063608" at="12,0,64,0" name="BusTransportSystem.structure.EnumerationDescriptor_PaymentMethod" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3893540833473063608" at="33,0,34,0" concept="2" trace="myEnumerationPaymentMethod" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/3893540833473063627">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3893540833473063627" at="19,0,20,0" concept="2" trace="props_OnlinePayment" />
+      <node id="3893540833473063627" at="80,42,81,76" concept="5" />
+      <node id="3893540833473063627" at="81,76,82,35" concept="1" />
+      <node id="3893540833473063627" at="82,35,83,45" concept="1" />
+      <node id="3893540833473063627" at="84,9,85,35" concept="6" />
+      <node id="3893540833473063627" at="79,47,84,9" concept="3" />
+      <scope id="3893540833473063627" at="80,42,83,45">
+        <var name="cpb" id="3893540833473063627" />
+      </scope>
+      <scope id="3893540833473063627" at="79,47,85,35" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3893540833473063627" at="19,0,20,0" concept="7" trace="OnlinePayment" />
+      <node id="3893540833473063627" at="33,44,34,52" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3893540833473063627" at="26,0,27,0" concept="2" trace="myConceptOnlinePayment" />
+      <node id="3893540833473063627" at="70,47,71,38" concept="6" />
+      <node id="3893540833473063627" at="169,71,170,166" concept="5" />
+      <node id="3893540833473063627" at="170,166,171,34" concept="1" />
+      <node id="3893540833473063627" at="171,34,172,116" concept="1" />
+      <node id="3893540833473063627" at="172,116,173,105" concept="1" />
+      <node id="3893540833473063627" at="173,105,174,17" concept="1" />
+      <node id="3893540833473063628" at="174,17,175,175" concept="1" />
+      <node id="3893540833473063627" at="175,175,176,22" concept="6" />
+      <node id="3893540833473063627" at="169,0,178,0" concept="8" trace="createDescriptorForOnlinePayment#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3893540833473063627" at="70,47,71,38" />
+      <scope id="3893540833473063627" at="169,71,176,22">
+        <var name="b" id="3893540833473063627" />
+      </scope>
+      <scope id="3893540833473063627" at="169,0,178,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/3893540833473063630">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3893540833473063630" at="18,0,19,0" concept="2" trace="props_KIOSK" />
+      <node id="3893540833473063630" at="73,34,74,76" concept="5" />
+      <node id="3893540833473063630" at="74,76,75,35" concept="1" />
+      <node id="3893540833473063630" at="75,35,76,37" concept="1" />
+      <node id="3893540833473063630" at="77,9,78,27" concept="6" />
+      <node id="3893540833473063630" at="72,39,77,9" concept="3" />
+      <scope id="3893540833473063630" at="73,34,76,37">
+        <var name="cpb" id="3893540833473063630" />
+      </scope>
+      <scope id="3893540833473063630" at="72,39,78,27" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3893540833473063630" at="18,0,19,0" concept="7" trace="KIOSK" />
+      <node id="3893540833473063630" at="32,43,33,44" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3893540833473063630" at="25,0,26,0" concept="2" trace="myConceptKIOSK" />
+      <node id="3893540833473063630" at="68,39,69,30" concept="6" />
+      <node id="3893540833473063630" at="160,63,161,158" concept="5" />
+      <node id="3893540833473063630" at="161,158,162,34" concept="1" />
+      <node id="3893540833473063630" at="162,34,163,116" concept="1" />
+      <node id="3893540833473063630" at="163,116,164,105" concept="1" />
+      <node id="3893540833473063630" at="164,105,165,17" concept="1" />
+      <node id="3893540833473063631" at="165,17,166,118" concept="1" />
+      <node id="3893540833473063630" at="166,118,167,22" concept="6" />
+      <node id="3893540833473063630" at="160,0,169,0" concept="8" trace="createDescriptorForKIOSK#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3893540833473063630" at="68,39,69,30" />
+      <scope id="3893540833473063630" at="160,63,167,22">
+        <var name="b" id="3893540833473063630" />
+      </scope>
+      <scope id="3893540833473063630" at="160,0,169,0" />
+    </file>
+  </root>
+  <root nodeRef="r:ed66baf8-00a9-4ade-843c-5dadbf05f6b7(BusTransportSystem.structure)/431360409079995933">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="431360409079995933" at="13,0,14,0" concept="2" trace="props_Baggage" />
+      <node id="431360409079995933" at="38,36,39,76" concept="5" />
+      <node id="431360409079995933" at="39,76,40,35" concept="1" />
+      <node id="431360409079995933" at="40,35,41,39" concept="1" />
+      <node id="431360409079995933" at="42,9,43,29" concept="6" />
+      <node id="431360409079995933" at="37,41,42,9" concept="3" />
+      <scope id="431360409079995933" at="38,36,41,39">
+        <var name="cpb" id="431360409079995933" />
+      </scope>
+      <scope id="431360409079995933" at="37,41,43,29" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="431360409079995933" at="13,0,14,0" concept="7" trace="Baggage" />
+      <node id="431360409079995933" at="27,44,28,45" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="431360409079995933" at="20,0,21,0" concept="2" trace="myConceptBaggage" />
+      <node id="431360409079995933" at="58,41,59,32" concept="6" />
+      <node id="431360409079995933" at="102,65,103,159" concept="5" />
+      <node id="431360409079995933" at="103,159,104,34" concept="1" />
+      <node id="431360409079995933" at="104,34,105,71" concept="1" />
+      <node id="431360409079995933" at="105,71,106,104" concept="1" />
+      <node id="431360409079995933" at="106,104,107,17" concept="1" />
+      <node id="431360409079995934" at="107,17,108,115" concept="1" />
+      <node id="431360409079995936" at="108,115,109,111" concept="1" />
+      <node id="431360409079995950" at="109,111,110,198" concept="1" />
+      <node id="431360409079995952" at="110,198,111,196" concept="1" />
+      <node id="431360409079995933" at="111,196,112,22" concept="6" />
+      <node id="431360409079995933" at="102,0,114,0" concept="8" trace="createDescriptorForBaggage#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="431360409079995933" at="58,41,59,32" />
+      <scope id="431360409079995933" at="102,65,112,22">
+        <var name="b" id="431360409079995933" />
+      </scope>
+      <scope id="431360409079995933" at="102,0,114,0" />
+    </file>
+  </root>
+</debug-info>
+
