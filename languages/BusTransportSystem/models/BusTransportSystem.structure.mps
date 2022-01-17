@@ -59,9 +59,6 @@
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="BusData" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="1dAyJ1ef_jG" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyi" id="1dAyJ1efHxk" role="1TKVEl">
       <property role="IQ2nx" value="1397957499054643284" />
       <property role="TrG5h" value="capacity" />
@@ -71,6 +68,11 @@
       <property role="IQ2nx" value="3893540833473063536" />
       <property role="TrG5h" value="city" />
       <ref role="AX2Wp" node="1dAyJ1efHxn" resolve="Point" />
+    </node>
+    <node concept="1TJgyi" id="5WbFoIvZccg" role="1TKVEl">
+      <property role="IQ2nx" value="6848758473543172880" />
+      <property role="TrG5h" value="bus_id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="1dAyJ1efHxH" role="1TKVEi">
       <property role="IQ2ns" value="1397957499054643309" />
@@ -85,15 +87,24 @@
     <property role="TrG5h" value="Seat" />
     <property role="3GE5qa" value="BusData" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="1dAyJ1efHx9" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="nWw06LoreR" role="1TKVEi">
       <property role="IQ2ns" value="431360409080017847" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="tickets" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1dAyJ1efHxM" resolve="Ticket" />
+    </node>
+    <node concept="1TJgyj" id="5WbFoIvZiF$" role="1TKVEi">
+      <property role="IQ2ns" value="6848758473543199460" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="bookings" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3o8CG9pCYDT" resolve="Booking" />
+    </node>
+    <node concept="1TJgyi" id="5WbFoIvZcca" role="1TKVEl">
+      <property role="IQ2nx" value="6848758473543172874" />
+      <property role="TrG5h" value="id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="1dAyJ1efHxd">
@@ -128,9 +139,6 @@
     <property role="TrG5h" value="Ticket" />
     <property role="3GE5qa" value="Reservation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="1dAyJ1efHxN" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyi" id="1dAyJ1efHxP" role="1TKVEl">
       <property role="IQ2nx" value="1397957499054643317" />
       <property role="TrG5h" value="price" />
@@ -150,6 +158,17 @@
       <property role="IQ2nx" value="1397957499054643328" />
       <property role="TrG5h" value="journey_date" />
       <ref role="AX2Wp" node="1dAyJ1efHxR" resolve="DataType" />
+    </node>
+    <node concept="1TJgyi" id="5WbFoIvZiFd" role="1TKVEl">
+      <property role="IQ2nx" value="6848758473543199437" />
+      <property role="TrG5h" value="ticket_id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="5WbFoIvZiFj" role="1TKVEi">
+      <property role="IQ2ns" value="6848758473543199443" />
+      <property role="20kJfa" value="booking" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3o8CG9pCYDT" resolve="Booking" />
     </node>
   </node>
   <node concept="25R3W" id="1dAyJ1efHxR">
@@ -173,9 +192,6 @@
     <property role="TrG5h" value="Booking" />
     <property role="3GE5qa" value="Reservation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="3o8CG9pCYDU" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyi" id="3o8CG9pCYDW" role="1TKVEl">
       <property role="IQ2nx" value="3893540833473063548" />
       <property role="TrG5h" value="payment_date" />
@@ -190,6 +206,16 @@
       <property role="IQ2nx" value="3893540833473063562" />
       <property role="TrG5h" value="status" />
       <ref role="AX2Wp" node="3o8CG9pCYE1" resolve="BookingStatus" />
+    </node>
+    <node concept="1TJgyi" id="5WbFoIvZccL" role="1TKVEl">
+      <property role="IQ2nx" value="6848758473543172913" />
+      <property role="TrG5h" value="booking_id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="5WbFoIvZiF2" role="1TKVEl">
+      <property role="IQ2nx" value="6848758473543199426" />
+      <property role="TrG5h" value="max_bags" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyj" id="3o8CG9pCYEe" role="1TKVEi">
       <property role="IQ2ns" value="3893540833473063566" />
@@ -269,40 +295,21 @@
       <ref role="20lvS9" node="3o8CG9pCYDT" resolve="Booking" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3o8CG9pCYE$">
-    <property role="EcuMT" value="3893540833473063588" />
-    <property role="3GE5qa" value="Reservation" />
-    <property role="TrG5h" value="Child" />
-    <ref role="1TJDcQ" node="3o8CG9pCYEj" resolve="Passenger" />
-    <node concept="1TJgyi" id="3o8CG9pCYEB" role="1TKVEl">
-      <property role="IQ2nx" value="3893540833473063591" />
-      <property role="TrG5h" value="guardian_id" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="3o8CG9pCYED" role="1TKVEl">
-      <property role="IQ2nx" value="3893540833473063593" />
-      <property role="TrG5h" value="guardian_fname" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="3o8CG9pCYEG" role="1TKVEl">
-      <property role="IQ2nx" value="3893540833473063596" />
-      <property role="TrG5h" value="guardian_lname" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3o8CG9pCYEK">
-    <property role="EcuMT" value="3893540833473063600" />
-    <property role="3GE5qa" value="Reservation" />
-    <property role="TrG5h" value="Adult" />
-    <ref role="1TJDcQ" node="3o8CG9pCYEj" resolve="Passenger" />
-  </node>
   <node concept="1TIwiD" id="3o8CG9pCYEP">
     <property role="EcuMT" value="3893540833473063605" />
     <property role="3GE5qa" value="Reservation" />
     <property role="TrG5h" value="Payment" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="3o8CG9pCYEQ" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="1TJgyi" id="5WbFoIvZiFB" role="1TKVEl">
+      <property role="IQ2nx" value="6848758473543199463" />
+      <property role="TrG5h" value="payment_id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="5WbFoIvZjcl" role="1TKVEi">
+      <property role="IQ2ns" value="6848758473543201557" />
+      <property role="20kJfa" value="booking" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3o8CG9pCYDT" resolve="Booking" />
     </node>
   </node>
   <node concept="25R3W" id="3o8CG9pCYES">
@@ -343,6 +350,12 @@
       <property role="TrG5h" value="booking_name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyj" id="5WbFoIvZiFD" role="1TKVEi">
+      <property role="IQ2ns" value="6848758473543199465" />
+      <property role="20kJfa" value="booking_id" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3o8CG9pCYDT" resolve="Booking" />
+    </node>
   </node>
   <node concept="1TIwiD" id="nWw06LolSt">
     <property role="EcuMT" value="431360409079995933" />
@@ -359,22 +372,28 @@
       <property role="TrG5h" value="weight" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="PrWs8" id="nWw06LolSz" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="1TJgyi" id="5WbFoIvZiU0" role="1TKVEl">
+      <property role="IQ2nx" value="6848758473543200384" />
+      <property role="TrG5h" value="baggage_id" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyj" id="nWw06LolSI" role="1TKVEi">
-      <property role="IQ2ns" value="431360409079995950" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="tickets" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="1dAyJ1efHxM" resolve="Ticket" />
+    <node concept="1TJgyj" id="5WbFoIvZccw" role="1TKVEi">
+      <property role="IQ2ns" value="6848758473543172896" />
+      <property role="20kJfa" value="bookings" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3o8CG9pCYDT" resolve="Booking" />
     </node>
-    <node concept="1TJgyj" id="nWw06LolSK" role="1TKVEi">
-      <property role="IQ2ns" value="431360409079995952" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
+    <node concept="1TJgyj" id="5WbFoIvZiFF" role="1TKVEi">
+      <property role="IQ2ns" value="6848758473543199467" />
       <property role="20kJfa" value="seats" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1dAyJ1efHx8" resolve="Seat" />
+    </node>
+    <node concept="1TJgyj" id="5WbFoIvZiFL" role="1TKVEi">
+      <property role="IQ2ns" value="6848758473543199473" />
+      <property role="20kJfa" value="tickets" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1dAyJ1efHxM" resolve="Ticket" />
     </node>
   </node>
 </model>

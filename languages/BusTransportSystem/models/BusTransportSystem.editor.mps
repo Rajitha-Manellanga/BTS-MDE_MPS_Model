@@ -33,7 +33,6 @@
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
-        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -49,6 +48,7 @@
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
+      <concept id="625126330682908270" name="jetbrains.mps.lang.editor.structure.CellModel_ReferencePresentation" flags="sg" stub="730538219795961225" index="3SHvHV" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -83,7 +83,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="nWw06LordC" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1NtTu8" to="33ng:5WbFoIvZcca" resolve="id" />
       </node>
       <node concept="3F0ifn" id="nWw06LordQ" role="3EZMnx">
         <property role="3F0ifm" value="{" />
@@ -107,21 +107,9 @@
     <ref role="1XX52x" to="33ng:1dAyJ1ef_jF" resolve="Bus" />
     <node concept="3EZMnI" id="nWw06LorhT" role="2wV5jI">
       <node concept="3F0A7n" id="nWw06Lori2" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="nWw06Loric" role="3EZMnx">
-        <property role="3F0ifm" value="with" />
+        <ref role="1NtTu8" to="33ng:5WbFoIvZccg" resolve="bus_id" />
       </node>
       <node concept="l2Vlx" id="nWw06LorhW" role="2iSdaV" />
-      <node concept="1iCGBv" id="nWw06Loris" role="3EZMnx">
-        <ref role="1NtTu8" to="33ng:3o8CG9pCYDO" resolve="city" />
-        <node concept="1sVBvm" id="nWw06Loriu" role="1sWHZn">
-          <node concept="3F0A7n" id="nWw06LoriC" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
       <node concept="3F0ifn" id="nWw06Lorjn" role="3EZMnx">
         <property role="3F0ifm" value="{" />
         <node concept="ljvvj" id="nWw06Lorjw" role="3F10Kt">
@@ -141,7 +129,19 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0ifn" id="nWw06LorlC" role="3EZMnx">
+      <node concept="3F0A7n" id="5WbFoIvZiLF" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:3o8CG9pCYDK" resolve="city" />
+        <node concept="lj46D" id="5WbFoIvZiLS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="5WbFoIvZiN4" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="5WbFoIvZiQK" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZiPw" role="3EZMnx">
         <property role="3F0ifm" value="}" />
       </node>
     </node>
@@ -187,6 +187,15 @@
         <node concept="lj46D" id="nWw06LorqG" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="ljvvj" id="5WbFoIvZjjn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZjjF" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="lj46D" id="5WbFoIvZjjX" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
     </node>
   </node>
@@ -194,7 +203,10 @@
     <ref role="1XX52x" to="33ng:3o8CG9pCYDT" resolve="Booking" />
     <node concept="3EZMnI" id="nWw06LorqK" role="2wV5jI">
       <node concept="3F0A7n" id="nWw06LorqR" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1NtTu8" to="33ng:5WbFoIvZccL" resolve="booking_id" />
+        <node concept="lj46D" id="5WbFoIvZiUc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="nWw06LorqN" role="2iSdaV" />
       <node concept="3F0ifn" id="nWw06LorqX" role="3EZMnx">
@@ -217,12 +229,6 @@
       </node>
       <node concept="3F0ifn" id="nWw06Lorym" role="3EZMnx">
         <property role="3F0ifm" value=":" />
-      </node>
-      <node concept="3F0ifn" id="nWw06Lor$o" role="3EZMnx">
-        <property role="3F0ifm" value="payment:" />
-      </node>
-      <node concept="3F1sOY" id="nWw06Lor$q" role="3EZMnx">
-        <ref role="1NtTu8" to="33ng:3o8CG9pCYFh" resolve="payment" />
       </node>
       <node concept="3F0ifn" id="nWw06Lorsk" role="3EZMnx">
         <property role="3F0ifm" value="{" />
@@ -269,6 +275,186 @@
         </node>
         <node concept="l2Vlx" id="nWw06Loruk" role="2czzBx" />
       </node>
+      <node concept="3F0ifn" id="5WbFoIvZiS$" role="3EZMnx">
+        <property role="3F0ifm" value="with" />
+        <node concept="lj46D" id="5WbFoIvZiT1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="5WbFoIvZiTw" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:5WbFoIvZiF2" resolve="max_bags" />
+        <node concept="ljvvj" id="5WbFoIvZjhO" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZjim" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="lj46D" id="5WbFoIvZjiR" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5WbFoIvZiQX">
+    <ref role="1XX52x" to="33ng:nWw06LolSt" resolve="Baggage" />
+    <node concept="3EZMnI" id="5WbFoIvZiVa" role="2wV5jI">
+      <node concept="3F0A7n" id="5WbFoIvZiVk" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:5WbFoIvZiU0" resolve="baggage_id" />
+        <node concept="lj46D" id="5WbFoIvZj8E" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZiVu" role="3EZMnx">
+        <property role="3F0ifm" value="with" />
+      </node>
+      <node concept="3F0A7n" id="5WbFoIvZiVA" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:nWw06LolSu" resolve="baggage_tag" />
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZiVK" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="5WbFoIvZiVW" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:nWw06LolSw" resolve="weight" />
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZj3g" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZj3w" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <node concept="ljvvj" id="5WbFoIvZj3V" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="5WbFoIvZj59" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:5WbFoIvZccw" resolve="bookings" />
+        <node concept="ljvvj" id="5WbFoIvZj5a" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="5WbFoIvZj5b" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="1sVBvm" id="5WbFoIvZj5c" role="1sWHZn">
+          <node concept="3SHvHV" id="5WbFoIvZj5e" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5WbFoIvZiVd" role="2iSdaV" />
+      <node concept="1iCGBv" id="5WbFoIvZj5I" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:5WbFoIvZiFF" resolve="seats" />
+        <node concept="ljvvj" id="5WbFoIvZj5J" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="5WbFoIvZj5K" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="1sVBvm" id="5WbFoIvZj5L" role="1sWHZn">
+          <node concept="3SHvHV" id="5WbFoIvZj5N" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="5WbFoIvZj6t" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:5WbFoIvZiFL" resolve="tickets" />
+        <node concept="ljvvj" id="5WbFoIvZj6u" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="5WbFoIvZj6v" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="1sVBvm" id="5WbFoIvZj6w" role="1sWHZn">
+          <node concept="3SHvHV" id="5WbFoIvZj6y" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZj7m" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="lj46D" id="5WbFoIvZj8C" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5WbFoIvZj8G">
+    <ref role="1XX52x" to="33ng:1dAyJ1efHxM" resolve="Ticket" />
+    <node concept="3EZMnI" id="5WbFoIvZj8I" role="2wV5jI">
+      <node concept="3F0A7n" id="5WbFoIvZj8T" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:5WbFoIvZiFd" resolve="ticket_id" />
+        <node concept="lj46D" id="5WbFoIvZjc8" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZj9b" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="5WbFoIvZj9j" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:1dAyJ1efHxP" resolve="price" />
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZj9z" role="3EZMnx">
+        <property role="3F0ifm" value="from" />
+      </node>
+      <node concept="3F0A7n" id="5WbFoIvZj9J" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:1dAyJ1efHxW" resolve="departure_city" />
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZja5" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+      </node>
+      <node concept="3F0A7n" id="5WbFoIvZjal" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:1dAyJ1efHxT" resolve="arrival_city" />
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZjaB" role="3EZMnx">
+        <property role="3F0ifm" value="on" />
+      </node>
+      <node concept="3F0A7n" id="5WbFoIvZjaV" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:1dAyJ1efHy0" resolve="journey_date" />
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZjbh" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <node concept="ljvvj" id="5WbFoIvZjbt" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="5WbFoIvZjbv" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="5WbFoIvZjbK" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:5WbFoIvZiFj" resolve="booking" />
+        <node concept="1sVBvm" id="5WbFoIvZjbM" role="1sWHZn">
+          <node concept="3SHvHV" id="5WbFoIvZjc5" role="2wV5jI" />
+        </node>
+        <node concept="lj46D" id="5WbFoIvZjca" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="5WbFoIvZjgL" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="5WbFoIvZjgO" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZjfm" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="lj46D" id="5WbFoIvZjgs" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="5WbFoIvZj8L" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5WbFoIvZjcc">
+    <ref role="1XX52x" to="33ng:3o8CG9pCYEP" resolve="Payment" />
+    <node concept="3EZMnI" id="5WbFoIvZjce" role="2wV5jI">
+      <node concept="3F0A7n" id="5WbFoIvZjcn" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:5WbFoIvZiFB" resolve="payment_id" />
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZjcx" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
+      <node concept="1iCGBv" id="5WbFoIvZjcD" role="3EZMnx">
+        <ref role="1NtTu8" to="33ng:5WbFoIvZjcl" resolve="booking" />
+        <node concept="1sVBvm" id="5WbFoIvZjcF" role="1sWHZn">
+          <node concept="3SHvHV" id="5WbFoIvZjcO" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5WbFoIvZjcY" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+      </node>
+      <node concept="l2Vlx" id="5WbFoIvZjch" role="2iSdaV" />
     </node>
   </node>
 </model>
